@@ -1,0 +1,401 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Alien-Build-2.80
+    pathname: P/PL/PLICEASE/Alien-Build-2.80.tar.gz
+    provides:
+      Alien::Base 2.80
+      Alien::Base::PkgConfig 2.80
+      Alien::Base::Wrapper 2.80
+      Alien::Build 2.80
+      Alien::Build::CommandSequence 2.80
+      Alien::Build::Helper 2.80
+      Alien::Build::Interpolate 2.80
+      Alien::Build::Interpolate::Default 2.80
+      Alien::Build::Interpolate::Helper 2.80
+      Alien::Build::Log 2.80
+      Alien::Build::Log::Abbreviate 2.80
+      Alien::Build::Log::Default 2.80
+      Alien::Build::MM 2.80
+      Alien::Build::Meta 2.80
+      Alien::Build::Plugin 2.80
+      Alien::Build::Plugin::Build::Autoconf 2.80
+      Alien::Build::Plugin::Build::CMake 2.80
+      Alien::Build::Plugin::Build::Copy 2.80
+      Alien::Build::Plugin::Build::MSYS 2.80
+      Alien::Build::Plugin::Build::Make 2.80
+      Alien::Build::Plugin::Build::SearchDep 2.80
+      Alien::Build::Plugin::Core::CleanInstall 2.80
+      Alien::Build::Plugin::Core::Download 2.80
+      Alien::Build::Plugin::Core::FFI 2.80
+      Alien::Build::Plugin::Core::Gather 2.80
+      Alien::Build::Plugin::Core::Legacy 2.80
+      Alien::Build::Plugin::Core::Override 2.80
+      Alien::Build::Plugin::Core::Setup 2.80
+      Alien::Build::Plugin::Core::Tail 2.80
+      Alien::Build::Plugin::Decode::DirListing 2.80
+      Alien::Build::Plugin::Decode::DirListingFtpcopy 2.80
+      Alien::Build::Plugin::Decode::HTML 2.80
+      Alien::Build::Plugin::Decode::Mojo 2.80
+      Alien::Build::Plugin::Digest::Negotiate 2.80
+      Alien::Build::Plugin::Digest::SHA 2.80
+      Alien::Build::Plugin::Digest::SHAPP 2.80
+      Alien::Build::Plugin::Download::Negotiate 2.80
+      Alien::Build::Plugin::Extract::ArchiveTar 2.80
+      Alien::Build::Plugin::Extract::ArchiveZip 2.80
+      Alien::Build::Plugin::Extract::CommandLine 2.80
+      Alien::Build::Plugin::Extract::Directory 2.80
+      Alien::Build::Plugin::Extract::File 2.80
+      Alien::Build::Plugin::Extract::Negotiate 2.80
+      Alien::Build::Plugin::Fetch::CurlCommand 2.80
+      Alien::Build::Plugin::Fetch::HTTPTiny 2.80
+      Alien::Build::Plugin::Fetch::LWP 2.80
+      Alien::Build::Plugin::Fetch::Local 2.80
+      Alien::Build::Plugin::Fetch::LocalDir 2.80
+      Alien::Build::Plugin::Fetch::NetFTP 2.80
+      Alien::Build::Plugin::Fetch::Wget 2.80
+      Alien::Build::Plugin::Gather::IsolateDynamic 2.80
+      Alien::Build::Plugin::PkgConfig::CommandLine 2.80
+      Alien::Build::Plugin::PkgConfig::LibPkgConf 2.80
+      Alien::Build::Plugin::PkgConfig::MakeStatic 2.80
+      Alien::Build::Plugin::PkgConfig::Negotiate 2.80
+      Alien::Build::Plugin::PkgConfig::PP 2.80
+      Alien::Build::Plugin::Prefer::BadVersion 2.80
+      Alien::Build::Plugin::Prefer::GoodVersion 2.80
+      Alien::Build::Plugin::Prefer::SortVersions 2.80
+      Alien::Build::Plugin::Probe::CBuilder 2.80
+      Alien::Build::Plugin::Probe::CommandLine 2.80
+      Alien::Build::Plugin::Probe::Vcpkg 2.80
+      Alien::Build::Plugin::Test::Mock 2.80
+      Alien::Build::PluginMeta 2.80
+      Alien::Build::Temp 2.80
+      Alien::Build::TempDir 2.80
+      Alien::Build::Util 2.80
+      Alien::Build::Version::Basic 2.80
+      Alien::Build::rc 2.80
+      Alien::Role 2.80
+      Alien::Util 2.80
+      Test::Alien 2.80
+      Test::Alien::Build 2.80
+      Test::Alien::CanCompile 2.80
+      Test::Alien::CanPlatypus 2.80
+      Test::Alien::Diag 2.80
+      Test::Alien::Run 2.80
+      Test::Alien::Synthetic 2.80
+      alienfile 2.80
+    requirements:
+      Capture::Tiny 0.17
+      Digest::SHA 0
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 6.64
+      ExtUtils::ParseXS 3.30
+      FFI::CheckLib 0.11
+      File::Which 1.10
+      File::chdir 0
+      JSON::PP 0
+      List::Util 1.33
+      Path::Tiny 0.077
+      Test2::API 1.302096
+      Text::ParseWords 3.26
+      parent 0
+      perl 5.008004
+  Alien-cmake3-0.08
+    pathname: P/PL/PLICEASE/Alien-cmake3-0.08.tar.gz
+    provides:
+      Alien::cmake3 0.08
+    requirements:
+      Alien::Base 0.92
+      Alien::Build 1.19
+      Alien::Build::MM 0.32
+      Capture::Tiny 0
+      ExtUtils::MakeMaker 6.52
+      File::Which 0
+      Path::Tiny 0
+      perl 5.008001
+  Cairo-1.109
+    pathname: X/XA/XAOC/Cairo-1.109.tar.gz
+    provides:
+      Cairo 1.109
+      Cairo::Install::Files undef
+    requirements:
+      ExtUtils::Depends 0.2
+      ExtUtils::MakeMaker 0
+      ExtUtils::PkgConfig 1
+  Cairo-GObject-1.005
+    pathname: X/XA/XAOC/Cairo-GObject-1.005.tar.gz
+    provides:
+      Cairo::GObject 1.005
+      Cairo::GObject::Install::Files undef
+    requirements:
+      Cairo 1.080
+      ExtUtils::Depends 0.2
+      ExtUtils::MakeMaker 0
+      ExtUtils::PkgConfig 1.0
+      Glib 1.224
+  Capture-Tiny-0.48
+    pathname: D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz
+    provides:
+      Capture::Tiny 0.48
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec 0
+      File::Temp 0
+      IO::Handle 0
+      Scalar::Util 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Data-Printer-1.002001
+    pathname: G/GA/GARU/Data-Printer-1.002001.tar.gz
+    provides:
+      DDP 1.002001
+      Data::Printer 1.002001
+      Data::Printer::Common undef
+      Data::Printer::Config undef
+      Data::Printer::Filter undef
+      Data::Printer::Filter::ARRAY undef
+      Data::Printer::Filter::CODE undef
+      Data::Printer::Filter::ContentType undef
+      Data::Printer::Filter::DB undef
+      Data::Printer::Filter::DateTime undef
+      Data::Printer::Filter::Digest undef
+      Data::Printer::Filter::FORMAT undef
+      Data::Printer::Filter::GLOB undef
+      Data::Printer::Filter::GenericClass undef
+      Data::Printer::Filter::HASH undef
+      Data::Printer::Filter::OBJECT undef
+      Data::Printer::Filter::REF undef
+      Data::Printer::Filter::Regexp undef
+      Data::Printer::Filter::SCALAR undef
+      Data::Printer::Filter::VSTRING undef
+      Data::Printer::Filter::Web undef
+      Data::Printer::Object undef
+      Data::Printer::Profile undef
+      Data::Printer::Profile::Dumper undef
+      Data::Printer::Profile::JSON undef
+      Data::Printer::Theme undef
+      Data::Printer::Theme::Classic undef
+      Data::Printer::Theme::Material undef
+      Data::Printer::Theme::Monokai undef
+      Data::Printer::Theme::Solarized undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      File::Spec 0
+      File::Temp 0
+      Scalar::Util 0
+      Test::More 0
+      version 0.77
+  Date-5.2.13
+    pathname: S/SY/SYBER/Date-5.2.13.tar.gz
+    provides:
+      Date 5.002013
+      Date::Rel undef
+      Date::Timezone undef
+      Date::strict undef
+    requirements:
+      Export::XS v3.0.7
+      Test::Catch v2.0.1
+      XS::Framework v1.5.6
+      XS::Install v1.3.5
+      XS::libcatch v3.0.1
+      XS::libpanda v1.5.10
+      next::XS v1.0.7
+  Export-XS-3.0.7
+    pathname: S/SY/SYBER/Export-XS-3.0.7.tar.gz
+    provides:
+      Export::XS 3.000007
+    requirements:
+      XS::Framework v1.5.6
+      XS::Install v1.3.5
+      XS::libpanda v1.5.10
+      next::XS v1.0.7
+  ExtUtils-Depends-0.8001
+    pathname: X/XA/XAOC/ExtUtils-Depends-0.8001.tar.gz
+    provides:
+      ExtUtils::Depends 0.8001
+    requirements:
+      Data::Dumper 0
+      ExtUtils::MakeMaker 7.44
+      File::Spec 0
+      IO::File 0
+      perl 5.006
+  ExtUtils-PkgConfig-1.16
+    pathname: X/XA/XAOC/ExtUtils-PkgConfig-1.16.tar.gz
+    provides:
+      ExtUtils::PkgConfig 1.16
+    requirements:
+      ExtUtils::MakeMaker 0
+  FFI-CheckLib-0.31
+    pathname: P/PL/PLICEASE/FFI-CheckLib-0.31.tar.gz
+    provides:
+      FFI::CheckLib 0.31
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Which 0
+      List::Util 1.33
+      perl 5.006
+  File-Which-1.27
+    pathname: P/PL/PLICEASE/File-Which-1.27.tar.gz
+    provides:
+      File::Which 1.27
+    requirements:
+      ExtUtils::MakeMaker 0
+      base 0
+      perl 5.006
+  File-chdir-0.1011
+    pathname: D/DA/DAGOLDEN/File-chdir-0.1011.tar.gz
+    provides:
+      File::chdir 0.1011
+      File::chdir::ARRAY 0.1011
+      File::chdir::SCALAR 0.1011
+    requirements:
+      Carp 0
+      Cwd 3.16
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec::Functions 3.27
+      perl 5.006
+      strict 0
+      vars 0
+  Glib-1.3294
+    pathname: X/XA/XAOC/Glib-1.3294.tar.gz
+    provides:
+      Glib 1.3294
+      Glib::Bytes 1.3294
+      Glib::CodeGen 1.3294
+      Glib::Error 1.3294
+      Glib::Flags 1.3294
+      Glib::GenPod 1.3294
+      Glib::Install::Files undef
+      Glib::MakeHelper 1.3294
+      Glib::Object 1.3294
+      Glib::Object::Property 1.3294
+      Glib::Object::Property::ReadWrite 1.3294
+      Glib::Object::Property::Readable 1.3294
+      Glib::Object::Property::Writable 1.3294
+      Glib::Object::Subclass 1.3294
+      Glib::Object::_LazyLoader 1.3294
+      Glib::ParseXSDoc 1.3294
+      Glib::Variant 1.3294
+    requirements:
+      ExtUtils::Depends 0.300
+      ExtUtils::MakeMaker 0
+      ExtUtils::PkgConfig 1.000
+  Glib-Object-Introspection-0.051
+    pathname: X/XA/XAOC/Glib-Object-Introspection-0.051.tar.gz
+    provides:
+      Glib::Object::Introspection 0.051
+      Glib::Object::Introspection::Install::Files undef
+    requirements:
+      ExtUtils::Depends 0.3
+      ExtUtils::MakeMaker 0
+      ExtUtils::PkgConfig 1
+      Glib 1.32
+  Gtk3-0.038
+    pathname: X/XA/XAOC/Gtk3-0.038.tar.gz
+    provides:
+      Gtk3 0.038
+      Gtk3::Gdk::EventMask 0.038
+    requirements:
+      Cairo::GObject 1.000
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Glib::Object::Introspection 0.043
+      Test::Simple 0.96
+  Path-Tiny-0.144
+    pathname: D/DA/DAGOLDEN/Path-Tiny-0.144.tar.gz
+    provides:
+      Path::Tiny 0.144
+      Path::Tiny::Error 0.144
+    requirements:
+      Carp 0
+      Cwd 0
+      Digest 1.03
+      Digest::SHA 5.45
+      Encode 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.17
+      Fcntl 0
+      File::Compare 0
+      File::Copy 0
+      File::Glob 0
+      File::Path 2.07
+      File::Spec 0.86
+      File::Temp 0.19
+      File::stat 0
+      constant 0
+      overload 0
+      perl 5.008001
+      strict 0
+      warnings 0
+      warnings::register 0
+  PkgConfig-0.25026
+    pathname: P/PL/PLICEASE/PkgConfig-0.25026.tar.gz
+    provides:
+      PkgConfig 0.25026
+    requirements:
+      ExtUtils::MakeMaker 6.56
+      Test::More 0.94
+      perl 5.006000
+  Test-Catch-2.0.1
+    pathname: S/SY/SYBER/Test-Catch-2.0.1.tar.gz
+    provides:
+      Test::Catch 2.000001
+    requirements:
+      Test::More 1.302015
+      Test::Simple 1.302096
+      XS::Install v1.3.5
+      XS::libcatch v3.0.1
+      perl 5.018000
+  XS-Framework-1.5.6
+    pathname: S/SY/SYBER/XS-Framework-1.5.6.tar.gz
+    provides:
+      XS::ErrorCode undef
+      XS::Framework 1.005006
+      XS::STL::ErrorCategory undef
+      XS::STL::ErrorCode undef
+    requirements:
+      Test::Catch v2.0.1
+      XS::Install v1.3.5
+      XS::libcatch v3.0.1
+      XS::libpanda v1.5.10
+      next::XS v1.0.7
+      perl 5.022000
+  XS-Install-1.3.5
+    pathname: S/SY/SYBER/XS-Install-1.3.5.tar.gz
+    provides:
+      XS::Install 1.003005
+      XS::Install::Payload undef
+      XS::Loader undef
+    requirements:
+      Exporter 5.58
+      ExtUtils::MakeMaker 7.12
+      ExtUtils::ParseXS 3.24
+      PkgConfig 0.24
+      perl 5.010000
+  XS-libcatch-3.0.1
+    pathname: S/SY/SYBER/XS-libcatch-3.0.1.tar.gz
+    provides:
+      XS::libcatch 3.000001
+    requirements:
+      Alien::cmake3 0
+      XS::Install v1.3.5
+  XS-libpanda-1.5.10
+    pathname: S/SY/SYBER/XS-libpanda-1.5.10.tar.gz
+    provides:
+      XS::libpanda 1.005010
+    requirements:
+      Alien::cmake3 0
+      Test::Catch v2.0.1
+      XS::Install v1.3.5
+      XS::libcatch v3.0.1
+  next-XS-1.0.7
+    pathname: S/SY/SYBER/next-XS-1.0.7.tar.gz
+    provides:
+      next::XS 1.000007
+    requirements:
+      XS::Install v1.3.5
+      perl 5.018000
