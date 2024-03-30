@@ -1,10 +1,16 @@
 package Until::Model;
 
+use strict;
+use warnings;
 use v5.38;
 
 package Until::Model::Date {
   use Date;
   use Scalar::Util qw(blessed);
+  use Encode qw(decode);
+
+  say("govno");
+
 
   sub new ($class, $date, $name) {
     bless({
@@ -24,7 +30,7 @@ package Until::Model::Date {
     while (<$fh>) {
       my($raw, $name) = split(/,/, s/\R\z//r);
       next unless my $date = Date->new($raw);
-      push(@dates, $class->new($date, $name));
+      push(@dates, $class->new($date, decode('UTF-8', $name)));
     }
 
     return @dates;
